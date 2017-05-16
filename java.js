@@ -104,7 +104,7 @@ var e = Math.floor(Math.random() * (200 - 100) + 100);
 
 //var sum = (a + " + " + e = (a + e));
 
-/*
+
 if (sum % 2 == 0 ) {
 alert(var sum = (a + e);\n"This is an even number!");
 }
@@ -112,7 +112,7 @@ else (sum % 2 !== 0 ) {
 alert(var sum = (a + e);\n"This is an odd number!");
 }
 
-
+/*
 var sum = (a + e);
 
 alert(sum);
