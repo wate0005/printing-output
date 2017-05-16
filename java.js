@@ -101,12 +101,39 @@ var c = Math.floor(Math.random() * (200 - 100) + 100);
 var d = Math.floor(Math.random() * (200 - 100) + 100);
 var e = Math.floor(Math.random() * (200 - 100) + 100);
 
+//var sum = (a + e);
 
-var sum = (a + " " + " " + e " " "=" " " )(a + e);
+//alert(sum);
+
+prompt(a + " + " + e + " = ");
+var sum = (a + e);
+if (sum % 0) {
+    console.log("This is an EVEN number!!!");
+} else {
+    console.log("This is an ODD number!");
+}
+
+
+/*
+
+var numbers = [
+    Math.floor(Math.random() * (200 - 100) + 100),
+    Math.floor(Math.random() * (200 - 100) + 100),
+    Math.floor(Math.random() * (200 - 100) + 100),
+    Math.floor(Math.random() * (200 - 100) + 100),
+    Math.floor(Math.random() * (200 - 100) + 100)
+];
+
+//var sum = [0] + " + " + [4] + " = "([0] + [4]);
+
+//var sum = ([0] + " + " + [4] + " = ")([0] + [4]);
+
+var sum = [0] + [4];
+
 
 alert(sum);
 
-/*
+
 
 
 var day = prompt("What is the day?");
@@ -126,7 +153,7 @@ else (sum % 2 !== 0 ) {
 alert(var sum = (a + e);\n"This is an odd number!");
 }
 
-/*
+
 var sum = (a + e);
 
 alert(sum);
