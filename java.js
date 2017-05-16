@@ -93,7 +93,7 @@ If sum is an even number print the output confirming that, for example... see pr
 
 If sum is an odd number print the output confirming that, for example... see project outline.
 
-*/
+
 
 var a = Math.floor(Math.random() * (200 - 100) + 100);
 var b = Math.floor(Math.random() * (200 - 100) + 100);
