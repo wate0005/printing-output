@@ -93,7 +93,7 @@ If sum is an even number print the output confirming that, for example... see pr
 
 If sum is an odd number print the output confirming that, for example... see project outline.
 
-
+*/
 
 var a = Math.floor(Math.random() * (200 - 100) + 100);
 var b = Math.floor(Math.random() * (200 - 100) + 100);
@@ -102,9 +102,9 @@ var d = Math.floor(Math.random() * (200 - 100) + 100);
 var e = Math.floor(Math.random() * (200 - 100) + 100);
 
 
-//var sum = (a + " + " + e = (a + e));
+var sum = (a + " + " + e = (a + e));
 
-
+/*
 if (sum % 2 == 0 ) {
 alert(var sum = (a + e);\n"This is an even number!");
 }
