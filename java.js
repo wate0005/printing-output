@@ -102,7 +102,7 @@ var d = Math.floor(Math.random() * (200 - 100) + 100);
 var e = Math.floor(Math.random() * (200 - 100) + 100);
 
 
-var sum = (a + " + " + e = (a + e));
+var sum = (a + e);
 
 alert(sum);
 
