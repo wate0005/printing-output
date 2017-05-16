@@ -102,11 +102,23 @@ var d = Math.floor(Math.random() * (200 - 100) + 100);
 var e = Math.floor(Math.random() * (200 - 100) + 100);
 
 
-var sum = (a + e);
+var sum = (a + " " + " " + e " " "=" " " )(a + e);
 
 alert(sum);
 
 /*
+
+
+var day = prompt("What is the day?");
+if (day === "Saturday") {
+    console.log("I will go skiing!");
+} else {
+    console.log("I will watch a movie!");
+}
+
+
+
+
 if (sum % 2 == 0 ) {
 alert(var sum = (a + e);\n"This is an even number!");
 }
