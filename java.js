@@ -95,26 +95,7 @@ If sum is an odd number print the output confirming that, for example... see pro
 
 */
 
-var a = Math.floor(Math.random() * (200 - 100) + 100);
-var b = Math.floor(Math.random() * (200 - 100) + 100);
-var c = Math.floor(Math.random() * (200 - 100) + 100);
-var d = Math.floor(Math.random() * (200 - 100) + 100);
-var e = Math.floor(Math.random() * (200 - 100) + 100);
 
-//var sum = (a + e);
-
-//alert(sum);
-
-prompt(a + " + " + e + " = ");
-var sum = (a + e);
-if (sum % 0) {
-    console.log("This is an EVEN number!!!");
-} else {
-    console.log("This is an ODD number!");
-}
-
-
-/*
 
 var numbers = [
     Math.floor(Math.random() * (200 - 100) + 100),
@@ -124,43 +105,15 @@ var numbers = [
     Math.floor(Math.random() * (200 - 100) + 100)
 ];
 
-//var sum = [0] + " + " + [4] + " = "([0] + [4]);
-
-//var sum = ([0] + " + " + [4] + " = ")([0] + [4]);
-
-var sum = [0] + [4];
+var sum = numbers[0] + numbers[4];
 
 
-alert(sum);
+var output;
 
-
-
-
-var day = prompt("What is the day?");
-if (day === "Saturday") {
-    console.log("I will go skiing!");
+if (sum % 2 === 0) {
+    output = "So, this is an EVEN number!!!";
 } else {
-    console.log("I will watch a movie!");
+    output = "Looks like this one is an ODD number!!!";
 }
 
-
-
-
-if (sum % 2 == 0 ) {
-alert(var sum = (a + e);\n"This is an even number!");
-}
-else (sum % 2 !== 0 ) {
-alert(var sum = (a + e);\n"This is an odd number!");
-}
-
-
-var sum = (a + e);
-
-alert(sum);
-
-if (a %= e) {
-    "This is an even number!";
-} else {
-    "This is an odd number!";
-}
-*/
+alert(numbers[0] + " + " + numbers[4] + " = "  + sum + " ... " + output);
